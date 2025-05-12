@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<style>
+    .div-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid blue;
+        padding: 30px;
+        width: fit-content;
+        margin: auto;
+        flex-direction: column;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input {
+        width: 200px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+    button {
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="div-form">
+    <form action="userlogin" method="post">
+        <h1>Login Form (Cookies Example)</h1>
+        
+        <label>Enter Email</label>
+        <input type="text" name="nm">
+        
+        <label>Enter Password</label>
+        <input type="password" name="ps">
+        
+        <br>
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+</html>
